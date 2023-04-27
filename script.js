@@ -14,25 +14,52 @@ const outraFuncao = function(texto) {
 const resposta = outraFuncao(textoDoUsuario)
 console.log(resposta) */
 
-/* function dados(){
+// Exercicio 1A
+
+/*  function dados(){
     console.log("Eu sou Carlos, tenho 17 anos, moro em São leopoldo e sou estudante")
 }
 
-dados() */
+dados() */ 
 
-/* let nome = prompt("digite seu nome")
+// Exercicio 1B
+
+/* function info(nome, idade, cidade, profissao){
+    return `Ola ${nome}, tenho ${idade} anos, moro em ${cidade}, e sou ${profissao} `
+}
+
+let nome = prompt("digite seu nome")
 let idade = Number(prompt("digite sua idade"))
 let cidade = prompt("qual a sua cidade")
 let prefissao= prompt("qual sua profissao?")
+console.log(info(nome,idade,cidade,prefissao)) */ 
 
-function info(dados){
-    return "eu sou "+nome+", tenho "+idade+" anos, moro em "+cidade+" e sou "+prefissao
+
+//Exercicio 2B
+
+/* function resposta(num1,num2){
+return num1 >=num2;
 }
+alert(resposta(Number(129), Number(3))) */
 
- const mensagem = info(dados)
-console.log(mensagem) */
+//Exercicio c
+
+/* function epar(num){
+    return num % 2 ===0;
+}
+alert(epar(3)) */
+
+
 
 //a) desafio
+
+/* let desafioA = (meuTime) => {
+    return meuTime;
+}
+alert(desafioA('gremio'))
+ */
+
+//b) desafio
 
 /* function Exibirmensagem(texto){
     return texto.toUpperCase() + ' - ' + texto.length
@@ -40,7 +67,7 @@ console.log(mensagem) */
 
 console.log(exibirMensagem('vamos gremio')) */
 
-//b) desafio
+//c) desafio
 
 /* function soma (n1,n2){
     return n1 + n2;
